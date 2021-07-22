@@ -1,2 +1,2 @@
 # Hola Todos! 👋
-here is hooss's github!
+aquí es github de hooss!
