@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+    margin: 0;
+    color: #161B21;
+    font-family: 'DM Serif Display', serif;
+}
+
+header {
+    backdrop-filter: saturate(200%) blur(10px);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 100;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.171);
+    border-bottom-width: 1px;
+    font-size: 32px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title strong {
+    color:#4a9eff;
+    display: inline;
+}
+
+.booth {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.booth h1 {
+    font-size: 36px;
+}
+
+.booth h2 {
+    font-size: 26px;
+}
+
+.booth p {
+    font-size: 18px;
+}
+
+.booth img {
+    border-radius: 20px;
+}
+
+.alt {
+    letter-spacing: 1px;
+    margin-top: 2px;
+    color: #858585;
+}
+
+a {
+    text-decoration: none;
+    color:#4a9eff;
+}
+
+.hobby {
+    margin-bottom: 100px;
+}
+
+.hobby:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width:200px) and (max-width:480px) {
+    .booth img {
+        max-width: 180px;
+    }
+
+    .title {
+        padding: 100px 10px;
+    }
+
+    .booth {
+        padding: 100px 10px;
+    }
+}
