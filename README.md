@@ -1,13 +1,30 @@
-# Hello Everyone! 👋
-Here is my github!
+# Changmin Jung
+a 16 years old student, who likes to program.
 
-# How are you?
-I am a 16 years-old korean high school student who enjoy challenges.
-
-## What do you like?
-I love to learn languages. 
-I'm learning English now, and will learn German in my school soon.<br>
-And I also love to travel. because I want to know more about the world.
-
-## By the way, Why you learning Programming?
-Because I want to create a service that will change our daily life.
+```json
+{
+    "username": "hooss",
+    "birthday": "02/13",
+    "mothertongue": "Korean",
+    "codeWith": ["Flutter", "Python", "Javascript"],
+    "schools": {
+        "elementry": "Daegu Naedang Elementry School",
+        "middle": "Keisung Middle School",
+        "high": "Kyungpook National University High School"
+    },
+    "tool": "neovim",
+    "codeStyle": {
+        "tab": 2,
+        "semicolon": true,
+        "clenaCode": "target",
+        "comments": "less is better"
+    },
+    "freeTime": [
+        "coding practice",
+        "swimming",
+        "watching youtube",
+        "studying what I was personally curious; Science, Code style, etc."
+        "never school study :D"
+    ]
+}
+```
