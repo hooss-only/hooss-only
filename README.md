@@ -1,5 +1,9 @@
 # Changmin Jung
-a 16 years old student, who likes to program.
+16-years-old student,
+who likes to program, challenge, swim.
+
+**Contact me**
+[instagram](https://instagram.com/hooss_only) | hoossonly@gmail.com
 
 ```json
 {
@@ -22,8 +26,8 @@ a 16 years old student, who likes to program.
     "freeTime": [
         "coding practice",
         "swimming",
-        "watching youtube",
         "studying what I was personally curious; Science, Code style, etc."
+        "watching youtube",
         "never school study :D"
     ]
 }
