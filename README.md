@@ -1,8 +1,8 @@
 # Changmin Jung
-16-years-old student,
+16-years-old student,<br>
 who likes to program, challenge, swim.
 
-**Contact me**
+**Contact me**<br>
 [instagram](https://instagram.com/hooss_only) | hoossonly@gmail.com
 
 ```json
