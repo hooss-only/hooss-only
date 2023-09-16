@@ -1,106 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Changmin Jung</title>
-    <script src="https://kit.fontawesome.com/c852f63d80.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        Changmin Jung
-    </header>
-    <div class="title">
-        <p> 
-            A Korean Student<br>
-            <strong>taking on various challenges</strong><br>
-        </p>
-    </div>
-    <div class="booth">
-        <h1>
-            <i class="fa-solid fa-person"></i> Simple Information
-        </h1>
-        <p>
-            Age | 16 years old<br>
-            MBTI | ENTJ<br>
-            Blood Type | O<br>
-            School Name | Kyungpook National University High School
-        </p>
-    </div>
-    <div class="booth">
-        <h1>
-            Hobbies
-        </h1>
-        <div class="hobby">
-            <h2>
-                <i class="fa-solid fa-camera"></i> Taking Pictures
-            </h2>
-            <img src="img.jpg" width="350px">
-            <p class="alt" style="font-size:small;">
-                Used Samsung S22 Normal Camera<br>
-                And Adobe Lightroom.
-            </p>
-            <p>
-                More images I took <i class="fa-solid fa-arrow-right"></i> <a href="https://www.instagram.com/hooss_art/" target="_blank">@hooss_art</a>
-            </p>
-        </div>
-        <div class="hobby programming">
-            <h2>
-                <i class="fa-solid fa-computer"></i> Programming
-            </h2>
-            <p>
-                <strong>Frontend,<br></strong>
-                likes this page<br><br>
+<html>
+	<head>
+		<title>Changmin Jung</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" media="only screen and (min-width:200px) and (max-width:480px)" href="mobile.css">
+		<script src="https://kit.fontawesome.com/c852f63d80.js" crossorigin="anonymous"></script>
+	</head>
 
-                <strong>For Mobile Development,<br></strong>
-                Flutter<br><br>
+	<body>
+		<div class="container main">
+			<img width="150rem" src="assets/hoossonly.jpeg">
+			<h1 id="name">Changmin Jung</h1>
+		</div>
+		
+		<div class="container info">
+			<div class="container">
+				<h2>Personal Information</h2>
+				<p>
+				<strong>16-years-old</strong> korean student of <strong>Kyungpook National High School</strong>, <br>
+				who is interested in <span id="interested"></span>
+				</p>
+			</div>
+			<div class="container">
+				<h2>Projects</h2>
+				<div class="projects">
+					<a class="black-box" href="https://github.com/hooss-only/flowy" target="_blank">
+						<h3>Flowy</h3>
+						<p>
+						A project for my high school.
+						</p>
+					</a>
 
-                <strong>Studying Algorithm<br></strong>
-                Using Python and solving the <strong>Baekjoon</strong> and the <strong>NYPC.</strong><br><br>
+					<a class="black-box">
+						<h3>hooss-only</h3>
+						<p>
+						A website only used HTML, Javascript, Css.
+						</p>
+					</a>
 
-                <strong>Tool and Style<br></strong>
-                I usually use <strong>VSC</strong> with vim shortcut. sometime I use <strong>IntelliJ</strong> to modding minecraft with JAVA.<br>
-                About my code style, I must keep the rules of each programming languages.
+					<a class="black-box">
+						<h3>p5js practice</h3>
+						<p>
+						A canvas (and more) made with p5js.
+						</p>
+					</a>
 
-                <p class="alt" style="font-size: small">
-                    Click on the blue text to get more information.
-                </p>
-            </p>
-        </div>
-        <div class="hobby">
-            <h2><i class="fa-solid fa-pen-ruler"></i> Design</h2>
-            <p>
-                I'm studying the Photoshop, After Effect, etc.<br><br>
-                <div class="Gallery">
-                    <img src="poster.png" width="300px">
-                </div><br>
-                <p class="alt" style="font-size: small;">All work was completed within a month of starting Adobe.</p>
-            </p>
-        </div>
-    </div>
-    <div class="booth">
-        <h1>
-            <i class="fa-solid fa-money-bill-wave"></i> Donate
-        </h1>
-        <p>
-            Donate with <a href="https://toss.me/hoossonly" target="_blank">TossID</a>
-        </p>
-    </div>
-    <div class="booth">
-        <h1>
-            <i class="fa-solid fa-address-book"></i> Contacts
-        </h1>
-        <p>
-            Instagram | <a href="https://www.instagram.com/hooss_only/" target="_blank">@hooss_only</a><br>
-            Discord | hooss#2178<br>
-            Reddit | <a href="https://www.reddit.com/user/hooss_only/" target="_blank">u/hooss_only</a><br>
-            Github | <a href="https://github.com/hooss-only/" target="_blank">@hooss-only</a><br>
-            Email | hoosshusu@gmail.com<br>
+					<a class="black-box">
+						<h3>Root 2</h3>
+						<p>
+						A html canvas project that shows what root 2 is.
+						</p>
+					</a>
 
-            <p class="alt" style="font-size: small;">Sort by most used</p>
-        </p>
-    </div>
-</body>
+				</div>
+			</div>
+			
+			<div class="container">
+				<h2>Contacts</h2>
+				<div class="contacts">
+					<a href="https://instagram.com/hooss_only" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i> @hooss-only</a>
+					<span><i class="fa-regular fa-envelope fa-xl"></i> hoossonly@gmail.com</span>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="app.js"></script>
+	</body>
 </html>

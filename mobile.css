@@ -1,0 +1,15 @@
+.black-box {
+	width: 80%;
+}
+
+.container.main h1 {
+	font-size: 32px;
+}
+
+.container.info .container {
+	width: 80%;
+}
+
+.projects {
+	width: 100%;
+}
