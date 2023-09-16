@@ -105,3 +105,10 @@ h3 {
 .contacts > * {
 	margin: 10px;
 }
+
+.ps {
+	margin-top: 5px;
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+}
