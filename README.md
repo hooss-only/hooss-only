@@ -21,7 +21,7 @@ who likes to program, challenge, swim.
         "tab": 2,
         "semicolon": true,
         "clenaCode": "target",
-        "comments": "less is better"
+        "comments": "less comments, more code readablity."
     },
     "freeTime": [
         "coding practice",
