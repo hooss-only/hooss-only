@@ -61,7 +61,9 @@ window.onload = () => {
 		'clean code',
 		'learning English',
 		'design',
-		'photograph'
+		'photograph',
+		'listening music',
+		'to slove algorithm problem',
 	];
 	
 	const interestedSpan = document.getElementById('interested');
