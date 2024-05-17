@@ -9,6 +9,7 @@ class TypingList {
 	}
 
 	typo(element, text, speed) {
+		text += "."
 		let i = 1;
 		let typing = setInterval(() => {
 			element.innerText = text.slice(0, i);
