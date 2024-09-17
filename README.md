@@ -5,31 +5,33 @@ who likes to program and swim.
 **Contact me**<br>
 [instagram](https://instagram.com/hooss_only) | hoossonly@gmail.com
 
-```json
-{
-    "username": "hooss",
-    "birthday": "02/13",
-    "mothertongue": "Korean",
-    "codeWith": ["Flutter", "Python", "Javascript"],
-    "schools": {
-        "elementry": "Daegu Naedang Elementry School",
-        "middle": "Keisung Middle School",
-        "high": "Kyungpook National University High School"
-    },
-    "tool": "neovim",
-    "codeStyle": {
-        "tab": 2,
-        "semicolon": true,
-        "clenaCode": "target",
-        "comments": "less comments, more code readablity."
-    },
-    "freeTime": [
-        "coding practice",
-        "swimming",
-        "studying what I was personally curious; Science, Code style, etc."
-        "watching youtube",
-        "never school study :D"
-    ]
+```c
+#include <stdbool.h>
+#include "ojbects/person"
+
+#define MAYBE 0.5
+
+int main() {
+	CodeStyle code_style = {
+		.tab = 2;
+		.semicolon = true;
+		.clean_code = MAYBE;
+		.comments = "less comments but more redability";
+
+	};
+
+    char **skill_set = { "C", "Python", "Assembly?", "Javascript" }
+
+	Person hooss = {
+		.name = "Changmin Jung";
+		.age = 17;
+		.birth = "2007/02/13";
+		.from = "Korea";
+		.school = "Kyungpook National University High School";
+		.tool = "neovim";
+		.code_style = code_style;
+        .skill_set = skill_set;
+	};
 }
 ```
 
