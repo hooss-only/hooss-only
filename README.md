@@ -30,7 +30,7 @@ int main() {
 		.school = "Kyungpook National University High School";
 		.tool = "neovim";
 		.code_style = code_style;
-        .skill_set = skill_set;
+        	.skill_set = skill_set;
 	};
 }
 ```
