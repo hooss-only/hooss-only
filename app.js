@@ -60,6 +60,7 @@ window.onload = () => {
 	ageText.innerText = `${age}-years-old`;
 
 	const interested = [
+		'leanring computer science',
 		'programming',
 		'swimming',
 		'science',
