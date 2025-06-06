@@ -1,5 +1,5 @@
 # Changmin Jung
-17-years-old student,<br>
+18-years-old student,<br>
 who likes to program and swim.
 
 **Contact me**<br>
@@ -24,7 +24,7 @@ int main() {
 
 	Person hooss = {
 		.name = "Changmin Jung";
-		.age = 17;
+		.age = 18;
 		.birth = "2007/02/13";
 		.from = "Korea";
 		.school = "Kyungpook National University High School";
