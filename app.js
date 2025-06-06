@@ -54,6 +54,11 @@ class TypingList {
 }
 
 window.onload = () => {
+	const ageText = document.getElementById('age');
+	let current_year = new Date().getFullYear();
+	let age = current_year - 2007
+	ageText.innerText = `${age}-years-old`;
+
 	const interested = [
 		'programming',
 		'swimming',
