@@ -20,7 +20,7 @@ int main() {
 
 	};
 
-    char **skill_set = { "C", "Python", "Assembly?", "Javascript" }
+    	char **skill_set = { "C", "Python", "Assembly?", "Javascript" }
 
 	Person hooss = {
 		.name = "Changmin Jung";
@@ -32,6 +32,8 @@ int main() {
 		.code_style = code_style;
         	.skill_set = skill_set;
 	};
+
+	return 0;
 }
 ```
 
