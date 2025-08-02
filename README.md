@@ -9,28 +9,26 @@ who likes to program and swim.
 #include <stdbool.h>
 #include "ojbects/person"
 
-#define MAYBE 0.5
-
 int main() {
 	CodeStyle code_style = {
-		.tab = 2;
-		.semicolon = true;
-		.clean_code = MAYBE;
-		.comments = "less comments but more redability";
+		.tab = 2,
+		.semicolon = true,
+		.clean_code = "working on it...",
+		.comments = "less comments but more redability",
 
 	};
 
-    	char **skill_set = { "C", "Python", "Assembly?", "Javascript" }
+    	char **skill_set = { "C", "Python", "Assembly" }
 
 	Person hooss = {
-		.name = "Changmin Jung";
-		.age = 18;
-		.birth = "2007/02/13";
-		.from = "Korea";
-		.school = "Kyungpook National University High School";
-		.tool = "neovim";
-		.code_style = code_style;
-        	.skill_set = skill_set;
+		.name = "Changmin Jung",
+		.age = 18,
+		.birth = "2007/02/13",
+		.from = "Korea",
+		.school = "Kyungpook National University High School",
+		.tool = "neovim & tmux",
+		.code_style = code_style,
+        	.skill_set = skill_set,
 	};
 
 	return 0;
