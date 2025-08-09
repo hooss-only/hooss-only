@@ -1,6 +1,6 @@
 # Changmin Jung
-18-years-old student,<br>
-who likes to program and swim.
+KNUHS student,<br>
+who likes to code and swim.
 
 **Contact me**<br>
 [instagram](https://instagram.com/hooss_only) | hoossonly@gmail.com
