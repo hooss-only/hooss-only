@@ -71,6 +71,7 @@ window.onload = () => {
 		'photograph',
 		'listening music',
 		'to slove algorithm problem',
+		'cooking pasta',
 	];
 	
 	const interestedSpan = document.getElementById('interested');
