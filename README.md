@@ -5,7 +5,7 @@ who likes to code and swim.
 **Contact me**<br>
 [instagram](https://instagram.com/hooss_only) | hoossonly@gmail.com
 
-**Sponsor**
+**Be Sponsor**<br>
 [ko-fi](https://ko-fi.com/hooss)
 
 ```c
