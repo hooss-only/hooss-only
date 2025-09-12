@@ -6,7 +6,7 @@ who likes to code and swim.
 [instagram](https://instagram.com/hooss_only) | hoossonly@gmail.com
 
 **Be Sponsor**<br>
-[ko-fi](https://ko-fi.com/hooss)
+[github](https://github.com/sponsors/hooss-only) [ko-fi](https://ko-fi.com/hooss)
 
 ```c
 #include <stdbool.h>
