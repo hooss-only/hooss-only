@@ -1,4 +1,5 @@
 # Changmin Jung
+코딩하는 쿼카, Coding Quokka<br>
 KNUHS student,<br>
 who likes to code and swim.
 
@@ -14,7 +15,7 @@ who likes to code and swim.
 
 int main() {
 	CodeStyle code_style = {
-		.tab = 2,
+		.tab = 8, // to prevent deep indent
 		.semicolon = true,
 		.clean_code = "working on it...",
 		.comments = "less comments but more redability",
