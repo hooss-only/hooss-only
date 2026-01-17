@@ -96,7 +96,7 @@ window.onload = () => {
 			'Auch!',
 			'LOL',
 			'Patrick',
-			'i use fedora btw'
+			'i use MacBook Pro btw'
 		];
 
 		const randomIndex = Math.floor(Math.random() * (eggList.length));
