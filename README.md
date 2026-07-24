@@ -10,4 +10,5 @@ C, Assembly, Python
 **Be Sponsor**<br>
 [github](https://github.com/sponsors/hooss-only) [ko-fi](https://ko-fi.com/hooss)
 
-[go to my homepage](https://hooss-only.github.io/hooss-only/)
+[네이버 블로그](https://blog.naver.com/hooss_only)
+[visit to my homepage](https://hooss-only.github.io/hooss-only/)
